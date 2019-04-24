@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+	<meta charset="utf-8"/>
+	<title>Artifact evaluation</title>
+	<meta name="author" content="Soonho Kong"/>
+	<meta name="date" content="15 Apr 2018"/>
+	<link type="text/css" rel="stylesheet" href="css/tufte.css"/>
+</head>
+<body>
+
+<p>Artifact evaluation of the following paper.</p>
+
+<pre><code>Numerically-Robust Inductive Proof Rules for Continuous Dynamical Systems
+Sicun Gao, James Kapinski, Jyotirmoy Deshmukh, Nima Roohi, Armando Solar-Lezama, Nikos Arechiga and Soonho Kong
+In CAV (International Conference on Computer Aided Verification) 2019
+</code></pre>
+
+<h2 id="virtualmachine">Virtual Machine</h2>
+
+<ul>
+<li> Image File: <code>TODO</code></li>
+<li> SHA256 of Image: <code>TODO</code></li>
+<li> OS: ubuntu-18.04.2-desktop-amd64</li>
+<li> Account (ID/Password): cav / ae</li>
+<li> Host Platform: 2018 Macbook Pro with 2.9 GHz Intel Core i9
+(6-Core) and 32 GB RAM running MacOS 10.14.4</li>
+</ul>
+
+<h2 id="coverage">Coverage</h2>
+
+<ul>
+<li> Section 4.2 Type 1: Strict Contraction
+
+<ul>
+<li>Figure 3 Van der Pol Example</li>
+</ul></li>
+<li> Section 4.3 Type 2: Bounded Escape
+
+<ul>
+<li>Figure 4 Type 2 Barrier Example</li>
+</ul></li>
+<li> Section 5 Experiments
+
+<ul>
+<li>Table 1: Results for the ε-Lyapunov functions.</li>
+<li>Table 2: Results for the ε-barrier functions.</li>
+</ul></li>
+</ul>
+
+<h2 id="instructions">Instructions</h2>
+
+<p>Log in the provided VM (ID: <code>cav</code>, PASSWORD: <code>ae</code>). Open a terminal
+and execute the following instructions.</p>
+
+<p><code>TODO</code></p>
+
+<h2 id="quality">Quality</h2>
+
+<ul>
+<li> Source code of the implementation, dReal4, is available at
+<a href="https://github.com/dreal/dreal4/tree/cav19">https://github.com/dreal/dreal4/tree/cav19</a>.</li>
+<li> Its
+<a href="https://github.com/dreal/dreal4/blob/master/README.md">README.md</a>
+file provides build and install instructions.</li>
+<li> Source code is documented using Doxygen. Documentation webpage is
+at
+<a href="https://dreal.github.io/dreal4">https://dreal.github.io/dreal4</a>.</li>
+<li> We provide a comprehensive set of unittests, which can be executed by running
+&#8220;<code>bazel test //...</code>&#8221;.</li>
+<li> We provide packages for macOS (via homebrew) and Debian/Ubuntu
+Linux. The instructions are in the
+<a href="https://github.com/dreal/dreal4/blob/master/README.md">README.md</a>.</li>
+</ul>
+
+</body>
+</html>
+
