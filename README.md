@@ -1,6 +1,6 @@
 Title:   Artifact evaluation
 Author:  Soonho Kong
-Date:    15 Apr 2018
+Date:    24 Apr 2019
 CSS: css/tufte.css
 
 Artifact evaluation of the following paper.
