@@ -15,7 +15,7 @@ Virtual Machine
 ---------------
 
  - Image File: [Google Drive](https://drive.google.com/open?id=1-s0dAHbMBzuUQhMrov34Yi3EBlQTzI7K)
- - SHA256 of Image: `bfa80eb045ab84e3edcd6fd11f69f394774729d6`
+ - SHA256 of Image: `c07ad7c2e5986fbcb10d52df13f8c2c42a59143d958de5125323bc5acb9684db`
  - OS: Ubuntu 16.04.3 LTS
  - Account (ID/Password): cav / ae
  - Host Platform: 2018 Macbook Pro with 2.9 GHz Intel Core i9
